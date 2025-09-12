@@ -22,8 +22,8 @@ Scene(number) - GT_0
               - Test_90
               - Test_135
 
-Here, 12-channel noise-free color-polarization data:  GT_0, GT_45, GT_90, GT_135. Use these data as ground-truth intensity images.
-And, 12-channel noisy color-polarization data: Test_0, Test_45, Test_90, Test_135. Use these data to make input polarization mosaic images.
+12-channel noise-free color-polarization data:  GT_0, GT_45, GT_90, GT_135. Use these data as ground-truth intensity images.<br>
+12-channel noisy color-polarization data: Test_0, Test_45, Test_90, Test_135. Use these data to make input polarization mosaic images.
 
 Here, we provide a 24-channel full noisy-color-polarization dataset in three different noise-level conditions, which are low, medium, and high.
 The average noise level for each condition can be referred to Table 1 in our paper. 
@@ -43,13 +43,13 @@ To run our demo codes, please first run the sample_download.m code to obtain the
 135  &nbsp; 0<br>
 
 ### Denoising 
-Set the noise-level parameter to be used to control denoising power. 
-For MPFA denoising, noise-level for (G channel data) being used: sigma_g
+Set the noise-level parameter to be used to control denoising power.<br>
+For MPFA denoising, noise-level for (G channel data) being used: sigma_g<br>
 In the code, we provide the noise-level parameter for high noise-level conditions.
 
 #### Output
-Demosaicked-denoised monochrome images for each polarization direction: Dem_0, Dem_45, Dem_90, Dem_135
-Stokes parameter images derived from the demosaicked-denoised images: Dem_S0, Dem_S1, Dem_S2, Dem_DoP, Dem_AoP
+Demosaicked-denoised monochrome images for each polarization direction: Dem_0, Dem_45, Dem_90, Dem_135<br>
+Stokes parameter images derived from the demosaicked-denoised images: Dem_S0, Dem_S1, Dem_S2, Dem_DoP, Dem_AoP<br>
 CSV file containing PSNR values and angle RMSE for Table 2 in the paper
 
 ### - demo_color.m
@@ -63,14 +63,14 @@ G_90 &nbsp;&nbsp; G_45 &nbsp; B_90 &nbsp; B_45<br>
 G_135 &nbsp; G_0 &nbsp; B_135 &nbsp; B_0<br>
 
 ### Denoising 
-Set the noise-level parameter to be used to control denoising power. 
-For CFA denoising, noise-level for (RGB channel data) being used: [sigma_r,sigma_g,sigma_b]
+Set the noise-level parameter to be used to control denoising power.<br>
+For CFA denoising, noise-level for (RGB channel data) being used: [sigma_r,sigma_g,sigma_b]<br>
 In the code, we provide the noise-level parameter for high noise-level conditions.
 
 
 #### Output
-Demosaicked-denoised RGB images for each polarization direction: Dem_0, Dem_45, Dem_90, Dem_135
-Stokes parameter images derived from the demosaicked-denoised RGB images: Dem_S0, Dem_S1, Dem_S2, Dem_DoP, Dem_AoP
+Demosaicked-denoised RGB images for each polarization direction: Dem_0, Dem_45, Dem_90, Dem_135<br>
+Stokes parameter images derived from the demosaicked-denoised RGB images: Dem_S0, Dem_S1, Dem_S2, Dem_DoP, Dem_AoP<br>
 CSV file containing PSNR values and angle RMSE for Table 3 in the paper
 
 
