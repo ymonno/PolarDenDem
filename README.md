@@ -28,7 +28,7 @@ And, 12-channel noisy color-polarization data: Test_0, Test_45, Test_90, Test_13
 Here, we provide a 24-channel full noisy-color-polarization dataset in three different noise-level conditions, which are low, medium, and high.
 The average noise level for each condition can be referred to Table 1 in our paper. 
 To obtain the same results as our main paper and supplementary material, 
-please use the correct dataset (low, medium, high) with the corresponding noise level parameter
+please use the correct dataset (low, medium, or high) with the corresponding noise level parameter.
 
 ### - sample_download.m
 To run our demo codes, please first run the sample_download.m code to obtain the sample 24-channel noisy-color-polarization data and BM3D settings to be used for the demo.
