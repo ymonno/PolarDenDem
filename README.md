@@ -5,14 +5,14 @@ This is the source code of our proposed interpolation-based monochrome and color
 
 ### - Settings
 This denoising algorithm requires a gray-scale denoiser, and we used BM3D for denoising.
-Please download BM3D [1] MATLAB code. <a URL=https://webpages.tuni.fi/foi/GCF-BM3D/BM3D.zip /a>.
+Please download the BM3D MATLAB code. <a URL=https://webpages.tuni.fi/foi/GCF-BM3D/BM3D.zip /a>.
 Or, you can just run sample_download.m to obtain the codes. 
 
 ### - Dataset
-Our 24-channel noisy-color-polarization dataset is downloadable from our project page <a href="URL">[Project]</a>.
+Our 24-channel noisy-color-polarization dataset is downloadable from our project page <a href="http://www.ok.sc.e.titech.ac.jp/res/PolarDem/PDD.html" target="_blank">[Project]</a>.
 Our 24-channel noisy-color-polarization dataset contains 12-channel noise-free color polarization data and 12-channel noisy color polarization data.
 
-In such structure, 
+In such a structure, 
 Scene(number) - GT_0
               - GT_45
               - GT_90
@@ -25,13 +25,13 @@ Scene(number) - GT_0
 Here, 12-channel noise-free color-polarization data:  GT_0, GT_45, GT_90, GT_135. Use these data as ground-truth intensity images
 And, 12-channel noisy color-polarization data: Test_0, Test_45, Test_90, Test_135. Use these data to make input polarization mosaic images
 
-Here, we provide 24-channel full noisy-color-polarization dataset in three different noise-level condition which is low, medium, and high.
-The average noise-level for each condition can be refer to Table 1 in our paper. 
-To obtain same results as our main paper and supplementary material, 
+Here, we provide a 24-channel full noisy-color-polarization dataset in three different noise-level conditions which are low, medium, and high.
+The average noise level for each condition can be referred to Table 1 in our paper. 
+To obtain the same results as our main paper and supplementary material, 
 please use the correct dataset (low, medium, high) with the corresponding noise level parameter
 
 ### - sample_download.m
-To run our demo codes, please first run sample_download.m code to obtain sample 24-channel noisy-color-polarization data and BM3D settings to be used for the demo.
+To run our demo codes, please first run the sample_download.m code to obtain the sample 24-channel noisy-color-polarization data and BM3D settings to be used for the demo.
 
 
 ### - demo_monochrome.m
@@ -43,9 +43,9 @@ To run our demo codes, please first run sample_download.m code to obtain sample 
 135  ; 0
 
 ### Denoising 
-Set the noise-level parameter to be use to control denoising power. 
+Set the noise-level parameter to be used to control denoising power. 
 For MPFA denoising, noise-level for (G channel data) being used: sigma_g
-In the code, we provide the noise-level parameter for high noise-level condition
+In the code, we provide the noise-level parameter for high noise-level conditions
 
 #### Output
 Demosaicked-denoised monochrome images for each polarization direction: Dem_0, Dem_45, Dem_90, Dem_135
@@ -63,9 +63,9 @@ G_90 ; G_45 ; B_90 ; B_45
 G_135 ; G_0 ; B_135 ; B_0
 
 ### Denoising 
-Set the noise-level parameter to be use to control denoising power. 
+Set the noise-level parameter to be used to control denoising power. 
 For CFA denoising, noise-level for (RGB channel data) being used: [sigma_r,sigma_g,sigma_b]
-In the code, we provide the noise-level parameter for high noise-level condition
+In the code, we provide the noise-level parameter for high noise-level conditions
 
 
 #### Output
@@ -75,12 +75,8 @@ CSV file containing PSNR values and angle RMSE for Table 3 in the paper
 
 
 ## Reference
-[1]K. Dabov, A. Foi, V. Katkovnik, and K. Egiazarian, 窶・Image denoising with block-matching and
-3D filtering, Proc. SPIE Electronic Imaging, no.6064A窶・0, 2006.
-
-The code is available only for research purpose. If you use this code for publications, please cite the following papers.
+The code is available for research purposes only. If you use this code for publications, please cite the following papers.
 
 "Polarization Denoising and Demosaicking: Dataset and Baseline Method"
 Muhamad Daniel Ariff Bin Abdul Rahman, Yusuke Monno, Masayuki Tanaka, and Masatoshi Okutomi,
-IEEE International Conference on Image Processing (ICIP), PAGE, MONTH, 2025.
-
+IEEE International Conference on Image Processing (ICIP), pp.2524-2529, September, 2025.
