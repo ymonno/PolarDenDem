@@ -5,7 +5,7 @@ This is the source code of our proposed interpolation-based monochrome and color
 
 ### - Settings
 This denoising algorithm requires a gray-scale denoiser, and we used BM3D for denoising.
-Please download the BM3D MATLAB code. <a href=https://webpages.tuni.fi/foi/GCF-BM3D/BM3D.zip>[Link]/a>.
+Please download the BM3D MATLAB code. <a href="https://webpages.tuni.fi/foi/GCF-BM3D/BM3D.zip">[Link]/a>.
 Or, you can just run sample_download.m to obtain the codes. 
 
 ### - Dataset
