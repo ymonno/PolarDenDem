@@ -16,7 +16,8 @@ unzip(urlSampleData,filenameSampleData)
 
 % download BM3D code
 urlSampleData = 'https://webpages.tuni.fi/foi/GCF-BM3D/BM3D.zip';
-filenameSampleData= path_to_dataset;
+filenameSampleData= "BM3D";
 unzip(urlSampleData,filenameSampleData)
 
 end
+
