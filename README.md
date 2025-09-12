@@ -39,7 +39,7 @@ To run our demo codes, please first run the sample_download.m code to obtain the
 8-channel monochrome-polarization data (G channel data): GT_0, GT_45, GT_90, GT_135, Test_0, Test_45, Test_90, Test_135
 
 #### Mosaic pattern
-90 ; 45
+90 ; 45<br>
 135  ; 0
 
 ### Denoising 
@@ -57,10 +57,10 @@ CSV file containing PSNR values and angle RMSE for Table 2 in the paper
 24-channel noisy-color-polarization mat data: mat = cat(3, GT_0, GT_45, GT_90, GT_135, Test_0, Test_45, Test_90, Test_135)
 
 #### Mosaic pattern
-R_90 ; R_45 ; G_90 ; G_45
-R_135 ; R_0 ; G_135 ; G_0
-G_90 ; G_45 ; B_90 ; B_45
-G_135 ; G_0 ; B_135 ; B_0
+R_90 ; R_45 ; G_90 ; G_45<br>
+R_135 ; R_0 ; G_135 ; G_0<br>
+G_90 ; G_45 ; B_90 ; B_45<br>
+G_135 ; G_0 ; B_135 ; B_0<br>
 
 ### Denoising 
 Set the noise-level parameter to be used to control denoising power. 
