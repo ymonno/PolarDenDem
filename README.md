@@ -77,6 +77,6 @@ CSV file containing PSNR values and angle RMSE for Table 3 in the paper
 ## Reference
 The code is available for research purposes only. If you use this code for publications, please cite the following papers.
 
-"Polarization Denoising and Demosaicking: Dataset and Baseline Method"
-Muhamad Daniel Ariff Bin Abdul Rahman, Yusuke Monno, Masayuki Tanaka, and Masatoshi Okutomi,
+"Polarization Denoising and Demosaicking: Dataset and Baseline Method"<br>
+Muhamad Daniel Ariff Bin Abdul Rahman, Yusuke Monno, Masayuki Tanaka, and Masatoshi Okutomi<br>
 IEEE International Conference on Image Processing (ICIP), pp.2524-2529, September, 2025.
