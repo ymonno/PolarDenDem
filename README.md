@@ -1,4 +1,4 @@
-# PFCD + IGRI-2 Polarization Denoising and Demosaicking Codes
+# Polarization Denoising and Demosaicking Codes
 This is the source code of our proposed interpolation-based monochrome and color polarization denoising and demosaicking method, PFCD + IGRI-2, published in ICIP2025. <a href="http://www.ok.sc.e.titech.ac.jp/res/PolarDem/PDD.html" target="_blank">[Project]</a>.
  
 ## Demo
