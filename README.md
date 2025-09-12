@@ -45,7 +45,7 @@ To run our demo codes, please first run the sample_download.m code to obtain the
 ### Denoising 
 Set the noise-level parameter to be used to control denoising power. 
 For MPFA denoising, noise-level for (G channel data) being used: sigma_g
-In the code, we provide the noise-level parameter for high noise-level conditions
+In the code, we provide the noise-level parameter for high noise-level conditions.
 
 #### Output
 Demosaicked-denoised monochrome images for each polarization direction: Dem_0, Dem_45, Dem_90, Dem_135
@@ -65,7 +65,7 @@ G_135 &nbsp; G_0 &nbsp; B_135 &nbsp; B_0<br>
 ### Denoising 
 Set the noise-level parameter to be used to control denoising power. 
 For CFA denoising, noise-level for (RGB channel data) being used: [sigma_r,sigma_g,sigma_b]
-In the code, we provide the noise-level parameter for high noise-level conditions
+In the code, we provide the noise-level parameter for high noise-level conditions.
 
 
 #### Output
