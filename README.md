@@ -22,10 +22,10 @@ Scene(number) - GT_0
               - Test_90
               - Test_135
 
-Here, 12-channel noise-free color-polarization data:  GT_0, GT_45, GT_90, GT_135. Use these data as ground-truth intensity images
-And, 12-channel noisy color-polarization data: Test_0, Test_45, Test_90, Test_135. Use these data to make input polarization mosaic images
+Here, 12-channel noise-free color-polarization data:  GT_0, GT_45, GT_90, GT_135. Use these data as ground-truth intensity images.
+And, 12-channel noisy color-polarization data: Test_0, Test_45, Test_90, Test_135. Use these data to make input polarization mosaic images.
 
-Here, we provide a 24-channel full noisy-color-polarization dataset in three different noise-level conditions which are low, medium, and high.
+Here, we provide a 24-channel full noisy-color-polarization dataset in three different noise-level conditions, which are low, medium, and high.
 The average noise level for each condition can be referred to Table 1 in our paper. 
 To obtain the same results as our main paper and supplementary material, 
 please use the correct dataset (low, medium, high) with the corresponding noise level parameter
